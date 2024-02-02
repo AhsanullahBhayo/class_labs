@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            background-color: chocolate;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #f0f0f0;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white; 
+        }
+
+        main {
+            display: flex;
+            flex-direction: row;
+        }
+
+        article {
+            flex: 3;
+            padding: 20px;
+            background-color: white;
+            display: flex;
+        }
+
+        .text {
+            margin-left: 20px;
+            max-width: 600px;
+        }
+
+        aside {
+            flex: 1;
+            background-color: #f5f5f5;
+            padding: 20px;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        footer {
+            background-color: #eee;
+            text-align: center;
+            padding: 10px;
+        }
+
+       
+        .container:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        form {
+            margin-top: 40px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            background-color: rgb(86, 126, 185);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>I am Ahsanullah Bhayo</h1>
+        <h4>Mobile App developer</h4>
+    </header>
+    <main>
+        <article class="container">
+            <img src="ahsan.jpg" alt="Profile Image">
+            <div class="text">
+                <h3>About me</h3>
+                <p>
+                    I'm Ahsanullah Bhayo, a person who creates phone apps. I make cool online stuff that looks nice and works well. I really enjoy designing and building websites. I use my technical skills and creativity to make sure every project is awesome. I'm dedicated to making websites that are both good-looking and useful.
+                </p>
+            </div>
+        </article>
+    </main>
+    <main>
+        <article class="container">
+            <div class="text">
+                <h3>My Skills</h3>
+                <p>
+                    I'm a skilled mobile app developer with expertise in Java, Web Development, and Artificial Intelligence (AI). I have a strong programming background and a keen interest in the latest technologies. I approach challenges with a dynamic mindset, creating innovative solutions for mobile applications. My portfolio highlights my proficiency in Java, experience in developing mobile apps, and a solid understanding of AI principles. Take a look at my work to see a blend of technical skills and creative solutions in the world of mobile app development.
+                </p>
+            </div>
+        </article>
+    </main>
+    <main>
+        <article class="container">
+            <img src="library-shelf.jpg" alt="Profile Image">
+            <div class="text">
+                <h3>Projects</h3>
+                <h4>Library Management System</h4>
+                <p>
+                    Library management project, a dynamic and user-friendly library management system designed to inspire and assist book lovers in organizing their reading journeys. This platform seamlessly combines clear visuals, helpful content, and easy-to-use features to provide users with a straightforward library experience. Whether you're managing your personal book collection or exploring new reads, Library Explorer is crafted to make your library experience simple and enjoyable.
+                </p>
+            </div>
+        </article>
+    </main>
+    <main>
+        <article class="container">
+            <div class="text">
+                <h3>Contact Me</h3>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </article>
+    </main>
+    <footer>
+        
+    </footer>
+</body>
+</html>
